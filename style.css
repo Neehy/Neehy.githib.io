@@ -1,0 +1,55 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+}
+
+hr {
+	max-width: 65px;
+	border-width: 4px;
+	border-color: rgb(39, 77, 39, 0.9);
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+	color: rgb(255, 255, 255, 0.7);
+}
+
+body .startup {
+	background-image: url("image1.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+body .startup h1 {
+	font-size: 3rem;
+	margin-top: 200px;
+	margin-bottom: 0px;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-weight: 500%;
+	border-radius: 200px;
+	padding: 1rem 2rem;
+	font-size: 105%;
+}
+
+.btn-success:hover {
+	border-width: 3px;
+	border-color: #279427;
+}
